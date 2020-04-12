@@ -1,12 +1,9 @@
 // Code your solutions in this file
-const cards = ( [ 'Lisa', 'Kaitlin', 'Jan' ], 'surprise' );
+function writeCards(names, event) {
+  const cards = [];
 
-function writeCards(cards) {
-  for (let i = 0; i < cards.length; i++) {
-    console.log(`Thank you, ${cards[i]}, for the wonderful ${cards[3]} birthday gift!`);
+  for(let i = 0; i < cards.length; i++) {
+    cards.push('Thank you, ${names[i]}, for the wonderful ${event} gift!');
   }
-
-  return cards;
+  return cards; 
 }
-
-writeCards(cards);
