@@ -16,5 +16,4 @@ function countDown(num) {
     console.log(num);
     num--;
   }
-
 }
