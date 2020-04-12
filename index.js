@@ -9,4 +9,4 @@ function writeCards(cards) {
   return gifts;
 }
 
-wrapGifts(gifts);
+writeCards(cards);
