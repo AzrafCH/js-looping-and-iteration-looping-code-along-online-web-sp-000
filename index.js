@@ -8,3 +8,13 @@ for(let i = 0; i < names.length; i++) {
 
 return cards;
 }
+
+function countDown(num) {
+
+  let countDown = 10;
+  while( num >= 0) {
+    console.log(num);
+    num--;
+  }
+
+}
